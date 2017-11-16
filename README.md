@@ -1,4 +1,4 @@
-# Op Competition
+# Program Grader
 
 I created a small script that runs in a docker container that runs programs and validates output.
 
