@@ -7,8 +7,8 @@ I created a small script that runs in a docker container that runs programs and 
 Only tested on Mac, but should work in Windows and Linux. Install Docker before proceeding.
 
 ```
-git clone ...
-cd op-competition
+git clone https://github.com/jakerobers/program-grader
+cd program-grader
 ```
 
 ## How to Use
@@ -20,7 +20,7 @@ Put a student's program in the src directory and change the name to `Main.java` 
 There is a directory named `archive` for previously tested files, which is not tracked by git.
 
 ```
-docker build -t op-competition
-docker run op-competition
+docker build -t program-grader
+docker run program-grader
 ```
 
